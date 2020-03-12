@@ -1,10 +1,28 @@
 import React from 'react'
 import slika from '../../../images/beesHome.jpg';
+import p1 from '../../../images/p1.jpg';
 import classes from './Location.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import styled from 'styled-components';
-export default function Location({ img, text,title }) {
+export default function Location({ img, text, title, honey }) {
+    
+    
+    let imgOpt = null;
+    switch (img) {
+        case 1: imgOpt = p1;
+            break;
+        case 2: imgOpt = slika;
+            break;
+        default: imgOpt = p1;
+    }
+
+    const honeys = honey.map(h => {
+        return <span>{h.honey}</span>
+    })
+
+    console.log(honeys);
+    
     return (
         
 
@@ -12,15 +30,14 @@ export default function Location({ img, text,title }) {
             <div className="card">
                
                 <div className="img-container pt-5 px-5">
-                <img src={slika} alt="location" className="card-img-top" />
+                <img src={imgOpt} alt="location" className="card-img-top" />
                             </div>
                 {/* card footer */}
                 <div className="card-footer d-flex flex-column">
                     <div className="d-flex flex-column justify-content-between my-2 ">
                         <span className="skills">
-                            <span> Bagrem</span>
-                            <span> Lipa</span>
-                            <span> Suncokret</span>
+                            
+                            {honeys}
                         </span>
                         
                     <span className="title ">{title}</span>

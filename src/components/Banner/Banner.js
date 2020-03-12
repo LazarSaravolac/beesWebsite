@@ -7,7 +7,7 @@ export default function Banner({title,subtitle,children}) {
             <h1>{title}</h1>
             <div></div>
             <p>{subtitle}</p>
-            <Link to="cars">
+            <Link to="articles">
             <button className={classes.bannerBtn}>Nasa ponuda</button>
             </Link>
         </div>
