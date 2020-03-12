@@ -1,0 +1,7 @@
+.beesImg{
+    min-height: 60vh;
+    background: url("../../images/beesHome.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

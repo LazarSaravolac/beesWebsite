@@ -1,12 +1,26 @@
-import React from 'react';
-import './App.css';
+import React, {Component} from 'react';
+import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+import BeesHome from './components/BeesHome';
+
+class App extends Component {
+  render() {
+    
+    let routes = (
+      <Switch>
+        <Route path="/bees" component={BeesHome} />
+        <Route path="/" exact component={BeesHome} />
+        <Redirect to="/"/>
+        </Switch>
+    );
+
+    return (
+      <React.Fragment>
+        {routes}
+  </React.Fragment>
+       )
+  };
 }
 
-export default App;
+export default withRouter(App);
