@@ -3,7 +3,7 @@ import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Articles from './components/Articles/Articles';
 import BeesHome from './components/BeesHome';
-
+import Navbar from './components/Navbar/Navbar';
 class App extends Component {
   render() {
     
@@ -18,6 +18,7 @@ class App extends Component {
 
     return (
       <React.Fragment>
+        <Navbar/>
         {routes}
   </React.Fragment>
        )
