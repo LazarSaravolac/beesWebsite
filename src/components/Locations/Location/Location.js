@@ -15,7 +15,7 @@ export default function Location({ img, text, title, honey }) {
     return (
         
 
-        <ProductWrapper className="col-9 col-md-6 col-lg-6 col-xl-3 my-3 mx-auto">
+        <ProductWrapper className="col-11 col-md-6 col-lg-6 col-xl-3 my-3 mx-auto">
             <div className="card">
                
                 <div className="img-container pt-5 px-5">
@@ -33,7 +33,7 @@ export default function Location({ img, text, title, honey }) {
                     </div>
                     
                     <h5 className="font-italic mb-0">
-                     Klijentu je vrsena adaptacija spoljne fasade, uredjenje dnevne sobe. Koriscen je stiropor 12.5mm.   
+                     Klijentu je vršena adaptacija spoljne fasade, uređenje dnevne sobe. Korišćen je stiropor 12.5mm.   
                     </h5>
                 </div>
             </div>

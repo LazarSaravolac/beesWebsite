@@ -74,7 +74,7 @@ Početak radova u najkraćem mogućem roku, a po završetku radova iza nas ostav
 Pružamo mogućnost plaćanja preko računa.
                 <br />
                 <br />
-                Za više informacija iskljucivo pozivom na gore naveden broj telefona.
+                Za više informacija isključivo pozivom na gore naveden broj telefona.
                 <br />
                 <br />
 </div>
