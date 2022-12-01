@@ -1,7 +1,4 @@
 import React from 'react'
-import slika from '../../../images/beesHome.jpg';
-import p1 from '../../../images/2.jpg';
-import classes from './Location.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import styled from 'styled-components';

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import classes from './Locations.module.css';
 import Location from './Location/Location';
-import p1 from '../../images/p1.jpg';
 export default class Locations extends Component {
   render (){
   return(
