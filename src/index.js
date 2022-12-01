@@ -11,23 +11,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const composeEnhancers = process.env.NODE_ENV === 'development' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose;
-
-const rootReducer = combineReducers({
-    bees: beesReducer,
-});
-
-const store = createStore(rootReducer, composeEnhancers(
-    applyMiddleware(thunk)
-));
-
 
 const app = (
-    <Provider store={store}>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
-    </Provider>
+            <App/>
 );
 
 ReactDOM.render(app, document.getElementById('root'));

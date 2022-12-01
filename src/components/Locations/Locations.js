@@ -6,14 +6,18 @@ export default class Locations extends Component {
   render (){
   return(
       <div>
-          <h1 className="my-5 text-center" >Lokaliteti</h1>
+          <h1 className="my-5 text-center" >Radovi</h1>
           <div className="py-5">
               <div className="container-fluid text-justify">
                   <div className="row">
-                      <Location title="Vrdnik, Fruska gora" img={1} honey={[{honey:"Bagrem"},{honey:"Lipa"},{honey:"Suncokret"}]} />  
-                      <Location title="Mala Remeta, Fruska gora" img={1} honey={[{honey:"Bagrem"},{honey:"Lipa"}]}/> 
-                      <Location title="Vrdnik, Fruska gora" img={1} honey={[{honey:"Bagrem"},{honey:"Lipa"}]}/> 
-                      <Location title="Vrdnik, Fruska gora" img={1} honey={[{honey:"Bagrem"},{honey:"Lipa"},{honey:"Suncokret"}]}/> 
+                      <Location title="Vrdnik, Fruska gora" img={1} honey={[{honey:"Gletovanje"},{honey:"Malterisanje"}]} />  
+                      <Location title="Temerin, Vojvodina" img={2} honey={[{honey:"Gletovanje"},{honey:"Malterisanje"}]}/> 
+                      <Location title="Irig, Vojvodina" img={3} honey={[{honey:"Fasadiranje"},{honey:"Postavljanje lajsni"}]}/> 
+                      <Location title="Sremski Karlovci, Vojvodina" img={4} honey={[{ honey: "Malterisanje" }, { honey: "Gletovanje" }]} />
+                      <Location title="Vrdnik, Fruska gora" img={1} honey={[{honey:"Gletovanje"},{honey:"Malterisanje"}]} />  
+                      <Location title="Temerin, Vojvodina" img={2} honey={[{honey:"Gletovanje"},{honey:"Malterisanje"}]}/>
+                      <Location title="Irig, Vojvodina" img={3} honey={[{honey:"Fasadiranje"},{honey:"Postavljanje lajsni"}]}/> 
+                      <Location title="Sremski Karlovci, Vojvodina" img={5} honey={[{honey:"Malterisanje"},{honey:"Gletovanje"}]}/> 
                   </div>
               </div>
           </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import slika from '../../../images/b.jpg';
 
 export default class TV extends Component {
@@ -13,9 +12,7 @@ export default class TV extends Component {
             <div className="card">
                
                             <div className="img-container p-5">
-                                <Link to="/">
                                     <img src={slika} alt="article" className="card-img-top" />
-                                </Link>
                                
                             </div>
                     
